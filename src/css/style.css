@@ -1,0 +1,181 @@
+body{
+font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --bg-button: #140235;
+    --bg-button-hover: #330d70;
+    --bg-header-footer: #0E0027;
+    --text-color: #EDEDED;
+}
+
+header{
+    background-color: var(--bg-header-footer);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.produtos{
+    color: #251347;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    line-height: 32px;
+}
+
+.filtros{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.container .categorias_cartas, .container .preco_cartas{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.container label{
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #4D5C8D;
+}
+
+.categorias_cartas select,
+.preco_cartas input{
+    padding: 16px 13px;
+    border-radius: 10px;
+    border: 2px solid #4D5C8D;
+    background-color: #ffffff;
+    color: #130234;
+    height: 52px;
+}
+
+.preco_cartas input{
+    font-size: 16px;
+}
+
+ select:focus, input:focus{
+    outline: none;
+}
+
+select:focus-visible, input:focus-visible{
+    outline: none;
+}
+
+select.categoria{
+    appearance: none;
+    background: url(../assets/seta-para-baixo.png) 97% center no-repeat;
+}
+
+.filtros .btn_filtrar{
+    border: none;
+    background-color: var(--bg-button);
+    /*background-color: #6528D3;*/
+    color: var(--text-color);
+    padding: 16px 32px;
+    font-weight: 500;
+    align-self: end;
+    width: 150px;
+    height: 48px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.btn_filtrar:hover{
+    background-color: var(--bg-button-hover);
+}
+
+ .cartas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.carta{
+    max-width: 365px;
+    background-color: var(--text-color);
+    color: var(--bg-header);
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(42, 4, 68, 0.644);
+}
+
+.carta img{
+    width: 100%;
+    padding: 20px;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nome_personagem{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--bg-button);
+}
+
+.categoria{
+    color: #7E7E7E;
+    font-weight: 700;
+}
+
+.preco{
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #4D5C8D;
+    /*color: #4D8E5C;*/
+}
+
+.btn_comprar{
+    color: var(--text-color);
+    background-color: var(--bg-button);
+    /*background-color: #6528D3;*/
+    padding: 16px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn_comprar:hover{
+    background-color: var(--bg-button-hover);
+    /*background-color: #33008F;*/
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-header-footer);
+    /*background-color: #6528D3;*/
+    color: var(--text-color);
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.esconder {
+	display: none;
+}
+
+.mostrar {
+	display: block;
+}

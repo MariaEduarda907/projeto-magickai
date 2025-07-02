@@ -1,0 +1,36 @@
+@media(max-width: 1024px){
+    .container{
+        padding: 20px;
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .filtros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+}
+
+.categorias_cartas, .preco_cartas, .btn_filtrar{
+    width: 65%;
+}
+
+.btn_filtrar{
+        align-self: center;
+    }
+
+    .cartas{
+        justify-content: center;
+    }
+
+@media(max-width: 480px){
+     .categorias_cartas, .preco_cartas, .btn_filtrar{
+       width: 100%; 
+    }
+
+
+}
