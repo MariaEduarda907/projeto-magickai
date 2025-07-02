@@ -1,6 +1,6 @@
 # Magick AI
 
-Projeto desenvolido através das aulas do Dev Em Dobro na semana do Zero ao Programador.
+Projeto desenvolvido através das aulas do Dev Em Dobro na semana do Zero ao Programador.
 
 
 ## 💻 Tecnologias
