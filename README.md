@@ -2,6 +2,8 @@
 
 Projeto desenvolvido através das aulas do Dev Em Dobro na semana do Zero ao Programador.
 
+Confira o repositório original [aqui.](https://github.com/devemdobro/magick-ia-szpc)
+
 
 ## 💻 Tecnologias
 
